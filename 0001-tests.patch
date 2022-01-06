@@ -1,0 +1,16 @@
+From 1e242e39f49c309e63a9b79283d4b26624ec37e7 Mon Sep 17 00:00:00 2001
+From: Alberto Murillo <alberto.murillo.silva@intel.com>
+Date: Fri, 4 Mar 2016 18:08:42 -0600
+Subject: [PATCH] tests
+
+---
+ tests/__init__.py | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 tests/__init__.py
+
+diff --git a/tests/__init__.py b/tests/__init__.py
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.5.0
+
