@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyrsistent
 Version  : 0.18.1
-Release  : 68
+Release  : 69
 URL      : https://files.pythonhosted.org/packages/42/ac/455fdc7294acc4d4154b904e80d964cc9aae75b087bbf486be04df9f2abd/pyrsistent-0.18.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/42/ac/455fdc7294acc4d4154b904e80d964cc9aae75b087bbf486be04df9f2abd/pyrsistent-0.18.1.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
