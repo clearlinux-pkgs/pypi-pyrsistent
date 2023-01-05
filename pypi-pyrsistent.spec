@@ -4,7 +4,7 @@
 #
 Name     : pypi-pyrsistent
 Version  : 0.19.3
-Release  : 73
+Release  : 74
 URL      : https://files.pythonhosted.org/packages/bf/90/445a7dbd275c654c268f47fa9452152709134f61f09605cf776407055a89/pyrsistent-0.19.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bf/90/445a7dbd275c654c268f47fa9452152709134f61f09605cf776407055a89/pyrsistent-0.19.3.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
