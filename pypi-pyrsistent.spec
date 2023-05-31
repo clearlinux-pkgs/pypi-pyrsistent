@@ -5,7 +5,7 @@
 #
 Name     : pypi-pyrsistent
 Version  : 0.19.3
-Release  : 75
+Release  : 76
 URL      : https://files.pythonhosted.org/packages/bf/90/445a7dbd275c654c268f47fa9452152709134f61f09605cf776407055a89/pyrsistent-0.19.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bf/90/445a7dbd275c654c268f47fa9452152709134f61f09605cf776407055a89/pyrsistent-0.19.3.tar.gz
 Summary  : Persistent/Functional/Immutable data structures
@@ -15,6 +15,8 @@ Requires: pypi-pyrsistent-license = %{version}-%{release}
 Requires: pypi-pyrsistent-python = %{version}-%{release}
 Requires: pypi-pyrsistent-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(setuptools)
+BuildRequires : pypi(wheel)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -66,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683046672
+export SOURCE_DATE_EPOCH=1685549658
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
